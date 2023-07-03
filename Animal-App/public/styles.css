@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(248, 250, 195);
+}
+.navbar{
+    background-color: #FF8400;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color:#004EFF
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    border: solid #004EFF 5px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 60%;
+    color: darkblue;
+    padding: 20px;
+
+}
+a {
+    text-decoration: none;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    border: solid #004EFF 5px;
+    border-radius: 10px;
+}
+input{
+    height: 20px;
+    width: 150px;
+    align-items: left;
+}
+.checkbox{
+    width: 20px;
+}
+label{
+    margin-top: 5px;
+}
+.btn{
+    border: solid #FF8400 5px;
+    align-items: left; 
+   border-radius: 5px;
+    width: 450px;
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+    height: 60px;
+    margin: 20px;
+    cursor: pointer;
+}
+.frm-btn{
+    border: solid #FF8400 5px;
+    align-items: left; 
+   border-radius: 5px;
+    width: 450px;
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+    height: 60px;
+    margin: 20px;
+    cursor: pointer;
+
+
+}
+.details{
+    display: flex;
+    flex-direction: column;
+}
+.edit-link:hover{
+    color: #FF8400;
+}
