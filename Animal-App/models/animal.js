@@ -5,7 +5,7 @@ const animalSchema = new mongoose.Schema({
     species: String,
     extinct: Boolean,
     location: String,
-    lifeExpectancy: Number
+    lifeExpectancy: Number,
 })
 
 //create our model in database

@@ -9,7 +9,6 @@
                 <h3>Extinct: <%=animal.extinct ? "extinct" : "not extinct" %></h3>
                 <h3>Location:<%= animal.location%></h3>
                 <h3>Life Expectancy:<%= animal.lifeExpectancy%></h3>
-                
                 <form action="/animal/<%=animal._id %>?_method=DELETE" method="POST">
                     <input class="btn" type="submit" value="delete" />
                 </form>
